@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "scripts": {
+    "bs": "lerna bootstrap",
+    "clean": "lerna clean --yes",
+    "cbs": "npm run clean && npm run bs",
+    "web": "cd ./packages/web && npm run start",
+    "ios": "cd ./packages/mobile && npx react-native run-ios",
+    "android": "cd ./packages/mobile && npx react-native run-android"
+  }
+}

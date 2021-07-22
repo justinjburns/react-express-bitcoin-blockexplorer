@@ -1,0 +1,1 @@
+exports.API_PATH = 'http://10.0.0.79:4000/api';
